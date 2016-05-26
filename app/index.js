@@ -1,3 +1,4 @@
-module.exports = function(){
-   return 'Hello World';
-};
+var componet = require('./componet');
+
+document.body.appendChild(componet());
+
